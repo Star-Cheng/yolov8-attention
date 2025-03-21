@@ -1,0 +1,7 @@
+train: D:\Test_data\Yolo_data\Building\data\images\train
+val: D:\Test_data\Yolo_data\Building\data\images\val
+
+nc: 1
+
+names:
+    0: building
