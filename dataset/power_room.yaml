@@ -1,0 +1,13 @@
+train: D:\Test_data\Yolo_data\power_room\data\images\train
+val: D:\Test_data\Yolo_data\power_room\data\images\train
+# test: ../test/images
+
+nc: 11
+names: ['guizi_1', 'guizi_2', 'xuanniu_1', 'xuanniu_2', 'zhamen_1_off', 'zhamen_1_on', 'zhishideng_1_off', 'zhishideng_1_on', 'zhishideng_2_off', 'zhishideng_2_on', 'zhizhen_1']
+
+roboflow:
+  workspace: yangtzuniversity
+  project: test-f4nte-ggnvq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yangtzuniversity/test-f4nte-ggnvq/dataset/1

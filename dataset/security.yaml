@@ -1,0 +1,8 @@
+train: D:\Test_data\Yolo_data\security\data\images\train
+val: D:\Test_data\Yolo_data\security\data\images\val
+
+nc: 8
+names: ['USBFlashDisk', 'battery', 'knife', 'lighter', 'plasticBottleWithaNozzle', 'pressure', 'scissors', 'seal']
+
+datasets:
+  url: https://aistudio.baidu.com/datasetdetail/151338
